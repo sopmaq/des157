@@ -1,0 +1,132 @@
+/* Typography */
+
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.blog-date {
+    color: gainsboro;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body article p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #444;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 50px;
+}
+
+#sidebar ul li p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+#sidebar ul li a:link {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+    transition: color 0.3s ease;
+}
+
+#sidebar ul li a:hover {
+    color: silver;
+}
+
+#sidebar ul li a:visited {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+}
+
+#sidebar ul li a:active {
+    color: silver;
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+}
+
+#blogbody a:link {
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+    transition: color 0.3s ease;
+}
+
+#blogbody a:hover {
+    color: blue;
+}
+
+#blogbody a:visited {
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+    
+}
+
+#blogbody a:active {
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+    
+}
+/* Body */
+
+#sidebar {
+    position: fixed; 
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+    background-color: #ECF0F1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;    
+}
+
+#profile-img {
+    width: 150px;
+    margin-top: 40px;
+}
+
+#profile {
+    margin-left: 50px;
+}
+#blog-body {
+    position: relative;
+    left: 250px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+/* Blog Articles */
+
+.left-bar {
+    width: 7px;
+    height: 30px;
+    background-color: #F62459;
+    float: left;
+    margin-right: 10px;
+}
+
+#blog-body article {
+        padding-right: 350px;   
+}
+
+#blog-body img {
+    border: 2px solid gainsboro; 
+}
+
+.screenshot {
+    width: 200px;
+}
+
+#fcu_1 {
+    margin-right: 30px;
+}
+
+#screenshot-article-1 {
+    width: 500px;
+    margin: 0 auto;
+}
+
