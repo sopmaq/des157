@@ -1,3 +1,4 @@
-# Student Template for DES157
+# DES 157: Interactive Media II 
+## Winter 2017
 
-Begin by forking this repository to your personal GitHub account (click Fork in the upper right)
+[Link to portal] (https://sopmaq.github.io/des157/studio1/)
