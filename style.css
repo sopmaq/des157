@@ -1,7 +1,7 @@
 /* Typography */
 
 h1 {
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', sans-serif;
 }
 
 h2 {
@@ -17,26 +17,30 @@ ul {
 
 }
 
-section p a:link {  
+section p a:link {
     text-decoration: none;
     color: #444;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 
-section p a:visited { 
+section p a:visited {
     color: #444;
 }
 
-section p a:hover { 
+section p a:hover {
     text-decoration: none;
     color: #F62459;
 }
 
-section p a:active {  
+section p a:active {
     color: #F62459;
 }
 
-footer p a:link {  
+footer p a:link {
     text-decoration: none;
     color: #444;
     transition: color 0.3s ease;
@@ -46,12 +50,12 @@ footer p a:visited {
     color: #444;
 }
 
-footer p a:hover { 
+footer p a:hover {
     text-decoration: none;
     color: gainsboro;
 }
 
-footer p a:active {  
+footer p a:active {
     color: #444;
 }
 
@@ -60,7 +64,7 @@ footer p a:active {
 body {
     width: 100%;
     margin: 0 auto;
-    
+
 }
 
 /* Name */
@@ -76,7 +80,7 @@ body {
 
 header {
     width: 800px;
-    height: 200px; 
+    height: 200px;
     background-color: silver;
     margin: 0 auto;
 }
@@ -88,9 +92,9 @@ section {
     margin: 0 auto;
 }
 
-#col-exercises { 
-    float: left; 
-    width: 266px; 
+#col-exercises {
+    float: left;
+    width: 266px;
 }
 
 #col-studios {
@@ -100,7 +104,7 @@ section {
 }
 
 #col-project {
-    float: right; 
+    float: right;
     width: 266px;
 }
 
@@ -108,7 +112,7 @@ section {
 /* Footer */
 
 footer {
-    clear: right; 
+    clear: right;
     width: 100%;
     height: 60px;
     background-color: #ECF0F1;
@@ -125,4 +129,3 @@ footer ul li {
     list-style-type: none;
     padding-right: 30px;
 }
-
