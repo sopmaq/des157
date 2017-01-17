@@ -1,7 +1,7 @@
 /* Typography */
 
 h2,
-h3 {
+h3{
     font-family: 'Oswald', sans-serif;
 }
 
@@ -10,11 +10,37 @@ h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+
 body article p {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     line-height: 150%;
     color: #444;
+}
+
+#archive ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+#archive ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#archive p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    color: #444;
+}
+
+#archive p a{
+    color: #444;
+}
+
+#archive div p{
+    text-align: right;
 }
 
 #sidebar ul {
@@ -50,38 +76,38 @@ body article p {
     border-bottom: 1.8px dotted gainsboro;
 }
 
-#blogbody a:link {
+.blog-body a:link {
     text-decoration: none;
     border-bottom: 1.8px dotted gainsboro;
     transition: color 0.3s ease;
 }
 
-#blogbody a:hover {
+.blog-body a:hover {
     color: blue;
 }
 
-#blogbody a:visited {
+.blog-body a:visited {
     text-decoration: none;
     border-bottom: 1.8px dotted gainsboro;
     
 }
 
-#blogbody a:active {
+.blog-body a:active {
     text-decoration: none;
-    border-bottom: 1.8px dotted gainsboro;
+    border-bottom: 2px dotted gainsboro;
     
 }
 /* Body */
 
 #sidebar {
+    background-color: #ECF0F1;
     position: fixed; 
     width: 250px;
     height: 100%;
     z-index: 1;
-    background-color: #ECF0F1;
     top: 0;
     left: 0;
-    padding-top: 20px;    
+    padding-top: 20px;
 }
 
 #profile-img {
@@ -92,29 +118,48 @@ body article p {
 #profile {
     margin-left: 50px;
 }
-#blog-body {
+
+.blog-body {
     position: relative;
     left: 250px;
+    width: 60%;
+    max-width: 800px;
     padding-top: 30px;
     padding-left: 40px;
 }
 
+
 /* Blog Articles */
 
 .left-bar {
-    width: 7px;
+    width: 5px;
     height: 30px;
     background-color: #F62459;
     float: left;
     margin-right: 10px;
 }
 
-#blog-body article {
-        padding-right: 350px;   
+.archive-bar {
+    width: 5px;
+    height: 120px;
+    background-color: #ECF0F1; 
+    float: left; 
+    margin-right: 30px;
 }
 
-#blog-body img {
-    border: 2px solid gainsboro; 
+#archive {
+    margin-bottom: 45px;
+}
+.blog-body article {
+    /*padding-right: 350px;*/ 
+    border-bottom: 2px dotted gainsboro; 
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    
+}
+
+.blog-body img {
+    border: 1px solid gainsboro; 
 }
 
 .screenshot {
@@ -130,3 +175,14 @@ body article p {
     margin: 0 auto;
 }
 
+#pagination {
+    list-style-type: none;
+}
+
+#pagination li {
+    display: inline-block;
+}
+
+body {
+    overflow-x: hidden;
+}
