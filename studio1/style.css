@@ -1,0 +1,128 @@
+/* Typography */
+
+h1 {
+    font-family: 'Oswald', sans-serif; 
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p,
+ol,
+ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color: #444;
+
+}
+
+section p a:link {  
+    text-decoration: none;
+    color: #444;
+    transition: color 0.3s ease;
+}
+
+section p a:visited { 
+    color: #444;
+}
+
+section p a:hover { 
+    text-decoration: none;
+    color: #F62459;
+}
+
+section p a:active {  
+    color: #F62459;
+}
+
+footer p a:link {  
+    text-decoration: none;
+    color: #444;
+    transition: color 0.3s ease;
+}
+
+footer p a:visited {
+    color: #444;
+}
+
+footer p a:hover { 
+    text-decoration: none;
+    color: gainsboro;
+}
+
+footer p a:active {  
+    color: #444;
+}
+
+/* Body */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Name */
+
+#top-name {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Header */
+
+header {
+    width: 800px;
+    height: 200px; 
+    background-color: silver;
+    margin: 0 auto;
+}
+
+/* 3 Columns */
+
+section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#col-exercises { 
+    float: left; 
+    width: 266px; 
+}
+
+#col-studios {
+    float: left;
+    width: 266px;
+
+}
+
+#col-project {
+    float: right; 
+    width: 266px;
+}
+
+
+/* Footer */
+
+footer {
+    clear: right; 
+    width: 100%;
+    height: 60px;
+    background-color: #ECF0F1;
+    margin-top: 300px;
+}
+
+footer ul {
+    padding-top: 10px;
+}
+
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
