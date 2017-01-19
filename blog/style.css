@@ -214,6 +214,10 @@ body article p {
     color: #444;
 }
 
+#archive ul li p span {
+    color: silver;
+}
+
 #archive ul {
     list-style-type: none;
     margin: 0;
