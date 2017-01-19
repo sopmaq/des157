@@ -17,6 +17,9 @@ ul {
 
 }
 
+ul {
+    list-style-type: none;
+}
 section p a:link {
     text-decoration: none;
     color: #444;
