@@ -1,13 +1,52 @@
-/* Typography */
+/* 
+ * 
+ * Body 
+ * 
+ */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* 
+ * 
+ * Typography 
+ * 
+ */
 
 h1 {
-    font-family: 'Oswald', sans-serif; 
-}
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #444;
+   }
 
 h2 {
     font-family: 'Oswald', sans-serif;
+    border-bottom: 1px dotted silver;
+    padding-bottom: 5px;
+    width: 180px;
+    color: #444;
 }
 
+
+.p-date {
+    color: gainsboro;
+}
+
+#subhead {
+    color: #F62459;
+}
+
+#subhead ul {
+    list-style-type: none;
+}
+
+#subhead li {
+    display: inline-block;
+    padding-right: 20px;
+}
 p,
 ol,
 ul {
@@ -17,26 +56,41 @@ ul {
 
 }
 
-section p a:link {  
+
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol {
+  padding-left: 12px;  
+}
+section p a:link {
     text-decoration: none;
     color: #444;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 
-section p a:visited { 
+section p a:visited {
     color: #444;
 }
 
-section p a:hover { 
+section p a:hover {
     text-decoration: none;
     color: #F62459;
 }
 
-section p a:active {  
+section p a:active {
     color: #F62459;
 }
 
-footer p a:link {  
+footer p a:link {
     text-decoration: none;
     color: #444;
     transition: color 0.3s ease;
@@ -46,51 +100,65 @@ footer p a:visited {
     color: #444;
 }
 
-footer p a:hover { 
+footer p a:hover {
     text-decoration: none;
     color: gainsboro;
 }
 
-footer p a:active {  
+footer p a:active {
     color: #444;
 }
 
-/* Body */
 
-body {
-    width: 100%;
-    margin: 0 auto;
-    
-}
-
-/* Name */
+/* 
+ * 
+ * Intro
+ * 
+ */
 
 #top-name {
     width: 800px;
     margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
-/* Header */
+#highlight {
+    background-color: #F62459;
+    position: relative; 
+    right: 140px;
+    bottom: 24px;
+    width: 150px;
+    height: 15px;
+    z-index: -1;
+}
+
+/* 
+ * 
+ * Interactive Header 
+ * 
+ */
 
 header {
     width: 800px;
-    height: 200px; 
-    background-color: silver;
+    height: 200px;
     margin: 0 auto;
 }
 
-/* 3 Columns */
+/* 
+ * 
+ * 3 Columns 
+ * 
+ */
 
-section {
+section,
+div{
     width: 800px;
     margin: 0 auto;
 }
 
-#col-exercises { 
-    float: left; 
-    width: 266px; 
+#col-exercises {
+    float: left;
+    width: 266px;
 }
 
 #col-studios {
@@ -100,19 +168,26 @@ section {
 }
 
 #col-project {
-    float: right; 
+    float: right;
     width: 266px;
 }
 
 
-/* Footer */
+/* 
+ * 
+ * Footer 
+ * 
+ */
 
 footer {
-    clear: right; 
-    width: 100%;
-    height: 60px;
+    position: relative;
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    height: 100%;
     background-color: #ECF0F1;
     margin-top: 300px;
+    padding-left: 30px;
 }
 
 footer ul {
@@ -125,4 +200,3 @@ footer ul li {
     list-style-type: none;
     padding-right: 30px;
 }
-
