@@ -64,14 +64,14 @@ body article p {
     transition: color 0.3s ease;
 }
 
-#sidebar ul li a:hover {
-    color: silver;
-}
-
 #sidebar ul li a:visited {
     color: gray;
     text-decoration: none;
     border-bottom: 1.8px dotted gainsboro;
+}
+
+#sidebar ul li a:hover {
+    color: silver;
 }
 
 #sidebar ul li a:active {
@@ -80,14 +80,68 @@ body article p {
     border-bottom: 1.8px dotted gainsboro;
 }
 
+#validation {
+    padding-top: 70px;
+}
+
+#validation ul li p {
+     font-size: 13px;
+}
+
+#validation ul li {
+    display: inline-block;
+    padding-right: 13px;
+}
+#sidebar div li a:link {
+    color: silver;
+    border-bottom: none;
+}
+
+#sidebar div li a:visited {
+    color: silver;
+}
+
+#sidebar div li a:hover {
+    color: #F62459;
+}
+
+#sidebar div li a:active {
+    color: #F62459;
+}
+
+footer a:link {
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease; 
+    color: #444;
+}
+
+#archive li a:visited {
+    color: #444;
+}
+
+#archive li a:hover {
+    color: silver;
+}
+
+#archive li a:active {
+    color: silver;
+}
+
+#archive h2 {
+    color: #F62459;
+}
+
+.date {
+    color: gainsboro;
+}
+
 .blog-body a:link {
     text-decoration: none;
     border-bottom: 1.8px dotted gainsboro;
     transition: color 0.3s ease;
-}
-
-.blog-body a:hover {
-    color: blue;
 }
 
 .blog-body a:visited {
@@ -95,6 +149,11 @@ body article p {
     border-bottom: 1.8px dotted gainsboro;
 
 }
+
+.blog-body a:hover {
+    color: #F62459;
+}
+
 
 .blog-body a:active {
     text-decoration: none;
@@ -177,16 +236,4 @@ body article p {
 #screenshot-article-1 {
     width: 500px;
     margin: 0 auto;
-}
-
-#pagination {
-    list-style-type: none;
-}
-
-#pagination li {
-    display: inline-block;
-}
-
-body {
-    overflow-x: hidden;
 }
