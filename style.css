@@ -2,12 +2,35 @@
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #444;
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
+    border-bottom: 1px dotted silver;
+    padding-bottom: 5px;
+    width: 180px;
+    color: #444;
 }
 
+
+.p-date {
+    color: gainsboro;
+}
+
+#subhead {
+    color: #F62459;
+}
+
+#subhead ul {
+    list-style-type: none;
+}
+
+#subhead li {
+    display: inline-block;
+    padding-right: 20px;
+}
 p,
 ol,
 ul {
@@ -19,6 +42,11 @@ ul {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
+}
+
+ol {
+  padding-left: 12px;  
 }
 section p a:link {
     text-decoration: none;
@@ -90,7 +118,8 @@ header {
 
 /* 3 Columns */
 
-section {
+section,
+div{
     width: 800px;
     margin: 0 auto;
 }
@@ -122,6 +151,7 @@ footer {
     height: 100%;
     background-color: #ECF0F1;
     margin-top: 300px;
+    padding-left: 30px;
 }
 
 footer ul {
