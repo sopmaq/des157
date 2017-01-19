@@ -1,4 +1,8 @@
-/* Typography */
+/* 
+ * 
+ * Body - General 
+ *
+ */
 
 h2,
 h3{
@@ -18,29 +22,105 @@ body article p {
     color: #444;
 }
 
-#archive ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.blog-body a:link {
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+    transition: color 0.3s ease;
 }
 
-#archive ul li {
-    display: inline-block;
-    padding-right: 15px;
+.blog-body a:visited {
+    text-decoration: none;
+    border-bottom: 1.8px dotted gainsboro;
+
 }
 
-#archive p{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
-    color: #444;
+.blog-body a:hover {
+    color: #F62459;
 }
 
-#archive p a{
-    color: #444;
+
+.blog-body a:active {
+    text-decoration: none;
+    border-bottom: 2px dotted gainsboro;
+
 }
 
-#archive div p{
-    text-align: right;
+
+.blog-body {
+    position: relative;
+    left: 250px;
+    width: 60%;
+    max-width: 800px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+
+/* 
+ * 
+ * Body - Articles 
+ *
+ */
+
+.left-bar {
+    width: 5px;
+    height: 30px;
+    background-color: #F62459;
+    float: left;
+    margin-right: 10px;
+}
+
+.blog-body article {
+    border-bottom: 2px dotted gainsboro;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+
+}
+
+.blog-body img {
+    border: 1px solid gainsboro;
+}
+
+.screenshot {
+    width: 200px;
+}
+
+#screenshot-article-1 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* #entry-01-12 */
+
+#fcu_1 {
+    margin-right: 30px;
+}
+
+
+/* 
+ * 
+ * Sidebar 
+ *
+ */
+
+#sidebar {
+    background-color: #ECF0F1;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+#profile-img {
+    width: 150px;
+    margin-top: 40px;
+}
+
+#profile {
+    margin-left: 50px;
 }
 
 #sidebar ul {
@@ -92,6 +172,7 @@ body article p {
     display: inline-block;
     padding-right: 13px;
 }
+
 #sidebar div li a:link {
     color: silver;
     border-bottom: none;
@@ -109,7 +190,42 @@ body article p {
     color: #F62459;
 }
 
-footer a:link {
+/* 
+ * 
+ * Footer (Archive) 
+ *
+ */
+
+#archive {
+    margin-bottom: 45px;
+}
+
+#archive h2 {
+    color: #F62459;
+}
+
+#archive .date {
+    color: silver;
+}
+
+#archive p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    color: #444;
+}
+
+#archive ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#archive ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#archive li a:link {
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     -ms-transition: color 0.3s ease;
@@ -130,110 +246,10 @@ footer a:link {
     color: silver;
 }
 
-#archive h2 {
-    color: #F62459;
-}
-
-.date {
-    color: gainsboro;
-}
-
-.blog-body a:link {
-    text-decoration: none;
-    border-bottom: 1.8px dotted gainsboro;
-    transition: color 0.3s ease;
-}
-
-.blog-body a:visited {
-    text-decoration: none;
-    border-bottom: 1.8px dotted gainsboro;
-
-}
-
-.blog-body a:hover {
-    color: #F62459;
-}
-
-
-.blog-body a:active {
-    text-decoration: none;
-    border-bottom: 2px dotted gainsboro;
-
-}
-/* Body */
-
-#sidebar {
-    background-color: #ECF0F1;
-    position: fixed;
-    width: 250px;
-    height: 100%;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    padding-top: 20px;
-}
-
-#profile-img {
-    width: 150px;
-    margin-top: 40px;
-}
-
-#profile {
-    margin-left: 50px;
-}
-
-.blog-body {
-    position: relative;
-    left: 250px;
-    width: 60%;
-    max-width: 800px;
-    padding-top: 30px;
-    padding-left: 40px;
-}
-
-
-/* Blog Articles */
-
-.left-bar {
-    width: 5px;
-    height: 30px;
-    background-color: #F62459;
-    float: left;
-    margin-right: 10px;
-}
-
 .archive-bar {
     width: 5px;
     height: 120px;
     background-color: #ECF0F1;
     float: left;
     margin-right: 30px;
-}
-
-#archive {
-    margin-bottom: 45px;
-}
-.blog-body article {
-    /*padding-right: 350px;*/
-    border-bottom: 2px dotted gainsboro;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-
-}
-
-.blog-body img {
-    border: 1px solid gainsboro;
-}
-
-.screenshot {
-    width: 200px;
-}
-
-#fcu_1 {
-    margin-right: 30px;
-}
-
-#screenshot-article-1 {
-    width: 500px;
-    margin: 0 auto;
 }
