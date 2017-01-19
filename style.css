@@ -1,4 +1,20 @@
-/* Typography */
+/* 
+ * 
+ * Body 
+ * 
+ */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* 
+ * 
+ * Typography 
+ * 
+ */
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -41,15 +57,7 @@ ul {
 }
 
 
-#highlight {
-    background-color: #F62459;
-    position: relative; 
-    right: 140px;
-    bottom: 24px;
-    width: 150px;
-    height: 15px;
-    z-index: -1;
-}
+
 
 ul {
     list-style-type: none;
@@ -101,15 +109,12 @@ footer p a:active {
     color: #444;
 }
 
-/* Body */
 
-body {
-    width: 100%;
-    margin: 0 auto;
-
-}
-
-/* Name */
+/* 
+ * 
+ * Intro
+ * 
+ */
 
 #top-name {
     width: 800px;
@@ -117,16 +122,33 @@ body {
     padding-top: 60px;
 }
 
-/* Header */
+#highlight {
+    background-color: #F62459;
+    position: relative; 
+    right: 140px;
+    bottom: 24px;
+    width: 150px;
+    height: 15px;
+    z-index: -1;
+}
+
+/* 
+ * 
+ * Interactive Header 
+ * 
+ */
 
 header {
     width: 800px;
     height: 200px;
-    background-color: silver;
     margin: 0 auto;
 }
 
-/* 3 Columns */
+/* 
+ * 
+ * 3 Columns 
+ * 
+ */
 
 section,
 div{
@@ -151,7 +173,11 @@ div{
 }
 
 
-/* Footer */
+/* 
+ * 
+ * Footer 
+ * 
+ */
 
 footer {
     position: relative;
