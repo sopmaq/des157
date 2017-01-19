@@ -3,8 +3,25 @@ function setup() {
     myCanvas.parent('interactiveHeader');
 }
 
-var col = color(246,36,89);
+var i = 0; 
+var transRate = 0; 
 
 function draw() {
-    ellipse(mouseX, mouseY, 80, 80);
-}
+  
+  var size = abs(mouseX - pmouseX) + abs(mouseY - pmouseY);
+  transRate++;  
+ 
+  stroke(68, 68, 68);
+  strokeWeight(2);
+  fill(68, 68, 68, transRate)
+  ellipse(mouseX, mouseY, size, size); 
+
+  
+  if (i < 255) {
+    i++;
+  } else {
+    i = 0;
+    transRate = 0; 
+  } // if
+    
+} // draw()
