@@ -1,0 +1,39 @@
+body {
+    width: 700px;
+    margin: 0 auto; 
+}
+
+
+h1,
+h3{ 
+    font-family: 'Oswald', sans-serif;
+    color: #03C9A9;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: #444; 
+} 
+
+a:link {  
+    text-decoration: none;
+    color: silver;
+}
+
+a:visited {
+    color: silver;
+}
+
+a:hover { 
+    color: gainsboro;
+}
+
+a:active {
+    color: gainsboro;
+
+}
+
+article {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
