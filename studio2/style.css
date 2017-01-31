@@ -76,7 +76,7 @@ form div {
 }
 
 input[type=text] {
-  background-color: none;
+  background-color: white;
   border: none;
   border-bottom: 2px solid pink;
   width: 150px;
