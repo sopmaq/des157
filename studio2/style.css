@@ -8,3 +8,12 @@
     margin: 0px;
     padding: 0px
 }
+
+#printout {
+  width: 500px;
+  padding: 200px;
+}
+
+#soPhone {
+  visibility: hidden;
+}
