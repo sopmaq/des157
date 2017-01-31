@@ -7,10 +7,14 @@
     <link href="style.css" rel="stylesheet"/>
     <script src='script.js' type="text/javascript"></script>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
 </head>
 
 <body>
-  <div>
+  <h1>Breakup Text Generator</h1>
+  <div id="main-form">
     <form name="mainForm">
 
     <!-- SO's Name -->
@@ -33,12 +37,13 @@
 
       <!-- Time -->
       <div>
-        <label>Choose a time</label><br />
-        <input type="radio" name="timeUnit" value="minutes">Minutes<br />
-        <input type="radio" name="timeUnit" value="hours">Hours<br />
-        <input type="radio" name="timeUnit" value="days">Days<br />
-        <input type="radio" name="timeUnit" value="months">Months<br />
+        <label style="padding-right: 150px";>Choose a unit of time</label><br />
+        <div class="radio"><input type="radio" name="timeUnit" value="minutes">Minutes</div>
+        <div class="radio"><input type="radio" name="timeUnit" value="hours">Hours</div>
+        <div class="radio"><input type="radio" name="timeUnit" value="days">Days</div>
+        <div class="radio"><input type="radio" name="timeUnit" value="months">Months</div>
       </div>
+      <br /><br />
 
       <!-- Activity -->
       <div>

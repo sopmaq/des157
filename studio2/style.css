@@ -9,11 +9,98 @@
     padding: 0px
 }
 
+/* Layout */
+#main-form {
+  float: left;
+  width: 400px;
+  margin-left: 30px;
+  padding-top: 70px;
+}
 #printout {
-  width: 500px;
-  padding: 200px;
+  float: right;
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  margin-right: 200px;
+  margin-top: 150px;
+  background: pink;
+  border: 1px dotted #444;
 }
 
-#soPhone {
-  visibility: hidden;
+#printout p {
+  padding-bottom: 30px;
+}
+
+footer {
+  clear: left;
+  font-family: 'VT323', monospace;
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: silver;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: silver;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+footer a:active {
+  text-decoration: none;
+  color: pink;
+}
+
+h1,
+p {
+  font-family: 'VT323', monospace;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  color: #444;
+  text-align: right;
+}
+
+form div {
+  padding-top: 15px;
+}
+
+input[type=text] {
+  background-color: none;
+  border: none;
+  border-bottom: 2px solid pink;
+  width: 150px;
+  margin-left: 5px;
+  transition: 1s border-bottom;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #444;
+  text-decoration: none;
+}
+
+.radio {
+  float: right;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  padding-top: 40px;
+  width: 800px;
+  margin: 0 auto;
+  color: #444;
 }
