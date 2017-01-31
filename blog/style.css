@@ -1,6 +1,6 @@
-/* 
- * 
- * Body - General 
+/*
+ *
+ * Body - General
  *
  */
 
@@ -56,9 +56,9 @@ body article p {
 }
 
 
-/* 
- * 
- * Body - Articles 
+/*
+ *
+ * Body - Articles
  *
  */
 
@@ -97,9 +97,9 @@ body article p {
 }
 
 
-/* 
- * 
- * Sidebar 
+/*
+ *
+ * Sidebar
  *
  */
 
@@ -190,9 +190,9 @@ body article p {
     color: #F62459;
 }
 
-/* 
- * 
- * Footer (Archive) 
+/*
+ *
+ * Footer (Archive)
  *
  */
 
@@ -234,7 +234,7 @@ body article p {
     -moz-transition: color 0.3s ease;
     -ms-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
     color: #444;
 }
 
@@ -252,7 +252,7 @@ body article p {
 
 .archive-bar {
     width: 5px;
-    height: 120px;
+    height: 165px;
     background-color: #ECF0F1;
     float: left;
     margin-right: 30px;
