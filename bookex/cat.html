@@ -14,7 +14,7 @@
         body {
             font-family: Verdana, Geneva, sans-serif;
             color: white;
-            background-color: #333;
+            background-color: #03C9A9;
             font-size: 11px;
             margin: 24px;
         }
@@ -22,25 +22,30 @@
         h1 {
             margin-bottom: 24px;
         }
+
+        #cat {
+          margin-top: 100px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Ch. 13 - Cat's Hat </h1>
-    <h2>open the console to see the results of the script</h2>
     <p style="text-align: center">
-  <img src="cat.png" style="position: relative">
+  <img id="cat" src="cat.png" style="position: absolute">
+  <img id="hat" src="hat.png" style="position: relative">
 </p>
-    
+
     <script>
-  var cat = document.querySelector("img");
+  var cat = document.querySelector("#cat");
+  var hat = document.querySelector("#hat");
   var angle = 0, lastTime = null;
   function animate(time) {
     if (lastTime != null)
       angle += (time - lastTime) * 0.001;
     lastTime = time;
-    cat.style.top = (Math.sin(angle) * 20) + "px";
-    cat.style.left = (Math.cos(angle) * 200) + "px";
+    hat.style.top = (Math.sin(angle) * 20) + "px";
+    hat.style.left = (Math.cos(angle) * 200) + "px";
     requestAnimationFrame(animate);
   }
   requestAnimationFrame(animate);
