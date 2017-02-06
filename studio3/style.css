@@ -17,11 +17,36 @@ header li {
 
 /* Main */
 
-body {}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
 
-section {
+main {
+  position: absolute;
+  bottom: 0px;
   width: 100%;
   height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+  width: 10%;
+  height: 100%;
+  float: left;
+  border: 2px solid blue;
+}
+
+
+.pen-img {
+  position: relative;
+  width: 40%;
+}
+
+footer {
+  clear: both;
 }
 
 #muji-38 {
