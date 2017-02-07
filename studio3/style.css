@@ -26,7 +26,7 @@ main {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 300px;
+  height: 250px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -36,7 +36,6 @@ section {
   width: 10%;
   height: 100%;
   float: left;
-  border: 2px solid blue;
 }
 
 
@@ -49,10 +48,6 @@ footer {
   clear: both;
 }
 
-#muji-38 {
-  background-color: silver;
-}
-
-#pilot-v5 {
-  background-color: teal;
+#pilot {
+  padding-top: 50px;
 }
