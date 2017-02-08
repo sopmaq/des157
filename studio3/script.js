@@ -72,6 +72,7 @@ staedtler.addEventListener('mouseout', function() {
 var tombow = document.getElementById("tombow");
 tombow.addEventListener('mouseover', function() {
   tombow.style.paddingTop = "50px";
+  tombow.style.cursor = "pointer";
 })
 tombow.addEventListener('mouseout', function() {
   tombow.style.paddingTop = "0px";
