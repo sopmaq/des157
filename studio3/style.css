@@ -22,12 +22,12 @@ body {
   margin: 0 auto;
 }
 
-.description {
+article {
   position: relative;
   width: 100%;
   height: 250px;
   margin: 0 auto;
-  background-color: blue;
+  background-color: gray;
 }
 main {
   position: absolute;
@@ -36,7 +36,7 @@ main {
   height: 250px;
   margin: 0 auto;
   overflow: hidden;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 
 section {
@@ -44,11 +44,11 @@ section {
   width: 10%;
   height: 100%;
   float: left;
-  border: 3px solid pink;
+  /*border: 3px solid pink;*/
 }
 
 
-.pen-img {
+section img {
   position: relative;
   width: 40%;
 }
@@ -57,9 +57,45 @@ footer {
   clear: both;
   position: absolute;
   bottom: 0px;
+  left: 0px;
   background-color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  padding: 40px;
+}
+
+#micron {
+
+}
+
+#muji {
+  padding-top: 30px;
 }
 
 #pilot {
   padding-top: 50px;
+}
+
+#prismacolor {
+  padding-top: 5px;
+}
+
+#stabilo {
+  padding-top: 50px;
+}
+
+#staedtler {
+  padding-top: 10px;
+}
+
+#sakura {
+  padding-top: 0px;
+}
+
+#tombow {
+  padding-top: 65px;
 }
