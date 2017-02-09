@@ -46,6 +46,7 @@ article {
   padding: 25px;
   visibility: hidden;
   font-family: 'Karla', sans-serif;
+  opacity: 0;
 }
 
 article div {
@@ -66,8 +67,23 @@ section {
   float: left;
 }
 
+#description-main {
+  width: 100%;
+}
+
 #description-img {
-  width: 40%;
+  width: 200px;
+  padding: 16px;
+  float: left;
+}
+
+#description-text {
+  padding: 20px;
+  color: #444;
+}
+
+#pens {
+  clear: both;
 }
 
 section img {
@@ -80,14 +96,18 @@ footer {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  background-color: blue;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  padding: 40px;
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Karla', sans-serif;
   font-size: 50px;
-  padding: 40px;
+  padding-bottom: 15px;
 }
 
 #micron {
