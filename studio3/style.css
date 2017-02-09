@@ -10,10 +10,6 @@
   padding: 0px
 }
 
-header li {
-  display: inline;
-}
-
 
 /* Main */
 
@@ -21,6 +17,7 @@ body {
   width: 80%;
   margin: 0 auto;
   overflow-x: hidden;
+  background-color: #FFFAFA;
 }
 
 /*article {
@@ -103,10 +100,11 @@ header {
   text-align: center;
   font-family: 'Karla', sans-serif;
   padding: 40px;
+  color: #facac3;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   padding-bottom: 15px;
 }
 
@@ -140,4 +138,27 @@ h1 {
 
 #tombow {
   padding-top: 65px;
+}
+
+footer {
+  width: 200px;
+  position: absolute;
+  bottom: 5%;
+  left: 87%;
+}
+footer a:link {
+  text-decoration: none;
+  color: #facac3;
+}
+
+footer a:visited {
+  color: #facac3;
+}
+
+footer a:hover {
+  color: mistyrose;
+}
+
+footer a:active {
+  color: mistyrose;
 }
