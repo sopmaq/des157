@@ -4,7 +4,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-
+// Global Variables
+var description = document.getElementById("description");
 // Micron
    var micron = document.getElementById("micron");
    micron.addEventListener('mouseover', function() {
@@ -14,6 +15,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
    })
    micron.addEventListener('mouseout', function() {
      micron.style.paddingTop = "0px";
+  })
+  micron.addEventListener('click', function() {
+    description.style.visibility = "visible";
   })
 
   // Muji
@@ -26,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
       muji.addEventListener('mouseout', function() {
         muji.style.paddingTop = "30px";
      })
+     muji.addEventListener('click', function() {
+       description.style.visibility = "visible";
+     })
 
 // Pilot
   var pilot = document.getElementById("pilot");
@@ -36,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   })
   pilot.addEventListener('mouseout', function() {
     pilot.style.paddingTop = "50px";
+ })
+ pilot.addEventListener('click', function() {
+   description.style.visibility = "visible";
  })
 
 // Prismacolor
@@ -48,6 +58,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
  prismacolor.addEventListener('mouseout', function() {
    prismacolor.style.paddingTop = "5px";
 })
+prismacolor.addEventListener('click', function() {
+  description.style.visibility = "visible";
+})
 
 // Sakura
 var sakura = document.getElementById("sakura");
@@ -58,6 +71,9 @@ sakura.addEventListener('mouseover', function() {
 })
 sakura.addEventListener('mouseout', function() {
   sakura.style.paddingTop = "0px";
+})
+sakura.addEventListener('click', function() {
+  description.style.visibility = "visible";
 })
 
 // Stabilo
@@ -70,6 +86,9 @@ stabilo.addEventListener('mouseover', function() {
 stabilo.addEventListener('mouseout', function() {
   stabilo.style.paddingTop = "50px";
 })
+stabilo.addEventListener('click', function() {
+  description.style.visibility = "visible";
+})
 
 // Staedtler
 var staedtler = document.getElementById("staedtler");
@@ -81,6 +100,9 @@ staedtler.addEventListener('mouseover', function() {
 staedtler.addEventListener('mouseout', function() {
   staedtler.style.paddingTop = "10px";
 })
+staedtler.addEventListener('click', function() {
+  description.style.visibility = "visible";
+})
 
 // Tombow
 var tombow = document.getElementById("tombow");
@@ -91,6 +113,9 @@ tombow.addEventListener('mouseover', function() {
 })
 tombow.addEventListener('mouseout', function() {
   tombow.style.paddingTop = "65px";
+})
+tombow.addEventListener('click', function() {
+  description.style.visibility = "visible";
 })
 
 
