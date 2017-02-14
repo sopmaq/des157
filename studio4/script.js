@@ -109,6 +109,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "At work. Slack me!"
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 14:
         console.log("case 14");
@@ -116,6 +118,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Definitely NOT falling asleep in class."
+        whatTip.innerHTML = "DES 157!";
+        doingTip.innerHTML = "Coding interactive websites.";
         break;
       case 15:
         console.log("case 15");
