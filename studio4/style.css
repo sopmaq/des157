@@ -51,11 +51,13 @@ table {
 	border-spacing: 0;
 }
 
-/* add your custom css here */
+/* Style the main page */
 
 body {
 	font-family: 'Roboto', sans-serif;
 }
+
+
 main {
 	width: 75%;
 	margin: 0 auto;
@@ -64,12 +66,13 @@ main {
 }
 
 main h1 {
-	font-size: 100px;
+	font-size: 80px;
 	font-weight: 700;
 }
 
 main p {
 	padding-top: 50px;
+	padding-bottom: 20px;
 	font-size: 50px;
 	font-weight: 700;
 }
@@ -99,4 +102,57 @@ footer a:hover {
 
 footer a:active {
 
+}
+
+/* Style the tooltips */
+
+.link {
+	border-bottom: 1px dotted silver;
+}
+
+.tip {
+	border-radius: 7px;
+	padding: 10px;
+	opacity: 0;
+}
+
+#whatTip {
+	position: absolute;
+	float: left;
+	width: 135px;
+	height: 80px;
+  text-align: center;
+	margin: 8%;
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+}
+
+#doingTip {
+	position: absolute;
+	left: 60%;
+	width: 135px;
+	height: 80px;
+  text-align: center;
+	margin: 8%;
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+}
+
+#clockTip {
+	position: relative;
+  text-align: center;
+	margin-left: 8%;
+	margin-right: 8%;
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+}
+
+#clockTip:before {
+	content: " ";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
 }
