@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Falling asleep... for real this time."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "Don't feel bad!";
+        doingTip.innerHTML = "Sleep is really, really important.";
         break;
       case 2:
         console.log("case 2");
@@ -68,8 +68,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Definitely asleep."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "Sleep is just as important as drinking water.";
+        doingTip.innerHTML = "Don't wake me up...";
         break;
       case 3:
         console.log("case 3");
@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Zzz..."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "I've got some comfy pillows!";
+        doingTip.innerHTML = "Getting some needed rest.";
         break;
       case 4:
         console.log("case 4");
@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Hopefull still sleeping."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "Sleep is important!";
+        doingTip.innerHTML = "Hoping my cat doesn't wake me up!";
         break;
       case 5:
         console.log("case 5");
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Being woken up by my cat..."
-        whatTip.innerHTML = "Work work work...";
+        whatTip.innerHTML = "It's the middle of the night!";
         doingTip.innerHTML = "Why does she need to eat so much?";
         break;
       case 6:
@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Savoring the last few hours of sleep..."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "Please last longer...";
+        doingTip.innerHTML = "At least my phone is on silent.";
         break;
       case 7:
         console.log("case 7");
@@ -113,8 +113,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Ignoring my alarm. Multiple times."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "I need more sleep...";
+        doingTip.innerHTML = "7 is just too early!";
         break;
       case 8:
         console.log("case 8");
@@ -122,17 +122,17 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Waking up... after seventeen snooze alarms."
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        whatTip.innerHTML = "Do I just not hear them...";
+        doingTip.innerHTML = "...or do I just turn my phone on silent without realizing?";
         break;
       case 9:
         console.log("case 9");
         body.style.backgroundColor = "#D1ECFF";
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
-        clockTip.innerHTML = "At work. Slack me!"
-        whatTip.innerHTML = "Work work work...";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        clockTip.innerHTML = "Time to get ready!"
+        whatTip.innerHTML = "Brushing my teeth for two minutes... I promise.";
+        doingTip.innerHTML = "Where did I put my left shoe...";
         break;
       case 10:
         console.log("case 10");
