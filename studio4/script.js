@@ -48,46 +48,100 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("case 0");
         body.style.backgroundColor = "#14233E";
         clockTip.innerHTML = "Napping. But by accident."
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        whatTip.innerHTML = "Too much homework!";
+        doingTip.innerHTML = "Why isn't this compiling?";
         break;
       case 1:
         console.log("case 1");
         body.style.backgroundColor = "#1F2C43";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Falling asleep... for real this time."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 2:
         console.log("case 2");
         body.style.backgroundColor = "#001848";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Definitely asleep."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 3:
         console.log("case 3");
         body.style.backgroundColor = "#112C63";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Zzz..."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 4:
         console.log("case 4");
         body.style.backgroundColor = "#3B507B";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Hopefull still sleeping."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 5:
         console.log("case 5");
         body.style.backgroundColor = "#7375A5";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Being woken up by my cat..."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Why does she need to eat so much?";
         break;
       case 6:
         console.log("case 6");
         body.style.backgroundColor = "#D1D9FF";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Savoring the last few hours of sleep..."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 7:
         console.log("case 7");
         body.style.backgroundColor = "#D1DFFF";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Ignoring my alarm. Multiple times."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 8:
         console.log("case 8");
         body.style.backgroundColor = "#DFF1FE";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Waking up... after seventeen snooze alarms."
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 9:
         console.log("case 9");
         body.style.backgroundColor = "#D1ECFF";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "At work. Slack me!"
+        whatTip.innerHTML = "Work work work...";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 10:
         console.log("case 10");
         body.style.backgroundColor = "#BBE3FF";
+        header.style.color = "#DFF1FE";
+        clock.style.color = "#DFF1FE";
+        clockTip.innerHTML = "Looking for breakfast!"
+        whatTip.innerHTML = "Eggs... or bagels?";
+        doingTip.innerHTML = "Not sure if I can make coffee in time for the bus...";
         break;
       case 11:
         console.log("case 11");
@@ -95,6 +149,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Running to catch the bus...";
+        whatTip.innerHTML = "I take the A Line! Or the Z... ";
+        doingTip.innerHTML = "... but I usually miss the bus by a minute or so.";
         break;
       case 12:
         console.log("case 12");
@@ -102,6 +158,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Eating anything and everything I can find!"
+        whatTip.innerHTML = "Is two bagels in one day excessive?";
+        doingTip.innerHTML = "Breaking out my snacks box.";
         break;
       case 13:
         console.log("case 13");
@@ -160,27 +218,35 @@ document.addEventListener("DOMContentLoaded", function() {
         body.style.backgroundColor = "#643047";
         clockTip.innerHTML = "PM coffee break! Time to stay up late."
         whatTip.innerHTML = "I like it black.";
-        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
+        doingTip.innerHTML = "Is it procrastinating if I'm drinking coffee?";
         break;
       case 20:
         console.log("case 20");
         body.style.backgroundColor = "#2A1735";
         clockTip.innerHTML = "Does making toast count as cooking dinner?"
+        whatTip.innerHTML = "I like to put avocados on my toast.";
+        doingTip.innerHTML = "Burning on my first attempt.. ";
         break;
       case 21:
         console.log("case 21");
         body.style.backgroundColor = "#112C63";
         clockTip.innerHTML = "Study study study...";
+        whatTip.innerHTML = "Lecture notes and Piazza posts.";
+        doingTip.innerHTML = "Writing questions for my TAs on post-it notes!";
         break;
       case 22:
         console.log("case 22");
         body.style.backgroundColor = "#15284F";
         clockTip.innerHTML = "Trying not to fall asleep!"
+        whatTip.innerHTML = "Don't give up! You can do it!";
+        doingTip.innerHTML = "Wish I had more coffee...";
         break;
       case 23:
         console.log("case 23");
         body.style.backgroundColor = "#1F2C43";
         clockTip.innerHTML = "Searching for bugs... or typos.";
+        whatTip.innerHTML = "Should I rewrite the whole program?";
+        doingTip.innerHTML = "Forgetting a semi-colon...";
         break;
 
     } // switch
