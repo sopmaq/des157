@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Definitely NOT falling asleep in class."
         whatTip.innerHTML = "DES 157!";
-        doingTip.innerHTML = "Coding interactive websites.";
+        doingTip.innerHTML = "Coding interactive experiences.";
         break;
       case 15:
         console.log("case 15");
@@ -127,6 +127,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Still in class. Getting  a little sleepy..."
+        whatTip.innerHTML = "Work time!";
+        doingTip.innerHTML = "Coding (or snacking)";
         break;
       case 16:
         console.log("case 16");
@@ -134,6 +136,8 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Napping (unintentionally)."
+        whatTip.innerHTML = "Trying to do work - but I'm so sleepy!";
+        doingTip.innerHTML = "Falling asleep on my laptop... get me a pillow please.";
         break;
       case 17:
         console.log("case 17");
@@ -141,16 +145,22 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.color = "#DFF1FE";
         clock.style.color = "#DFF1FE";
         clockTip.innerHTML = "Making to-do lists. Time to get to work!"
+        whatTip.innerHTML = "To-do: send emails, finish homework, write code.";
+        doingTip.innerHTML = "Check off \"Make To-Do List\"";
         break;
       case 18:
         console.log("case 18");
         body.style.backgroundColor = "#A23C4A";
         clockTip.innerHTML = "Forgetting to eat dinner. I'm just so busy!"
+        whatTip.innerHTML = "I have a packet of instant noodles?";
+        doingTip.innerHTML = "Getting to work and checking off my to-do list!";
         break;
       case 19:
         console.log("case 19");
         body.style.backgroundColor = "#643047";
         clockTip.innerHTML = "PM coffee break! Time to stay up late."
+        whatTip.innerHTML = "I like it black.";
+        doingTip.innerHTML = "Sending emails, checking off boxes, going to meetings.";
         break;
       case 20:
         console.log("case 20");
