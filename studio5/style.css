@@ -52,3 +52,8 @@ table {
 }
 
 /* add your custom css here */
+
+#micCanvas {
+	width: 500px;
+	height: 500px; 
+}
