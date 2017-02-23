@@ -39,6 +39,8 @@ function draw() {
   background(200);
   // Make circle move based on amplitude
   // amplitude level is between 0.0 and 1.0
+  // when breathe out: amplitude approaches 1.0
+  // when breathe in: amplitude approaches 00
   var amp = mic.getLevel();
   fill(127);
   stroke(0);
