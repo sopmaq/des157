@@ -53,7 +53,7 @@ table {
 
 /* add your custom css here */
 body {
-	font-family: 'Courier', serif;
+	font-family: 'Courier', 'Courier New', monospace;
 }
 main {
 	width: 900px;
@@ -65,11 +65,27 @@ main section {
 	height: 400px;
 }
 
-article h1 {
+#diagram {
+	width: 360px;
+	float: left;
 }
 
-article p {
+#text {
+	width: 540px;
+	background-color: aliceblue;
+	float: right;
+}
 
+#text h1 {
+	padding: 50px;
+	font-size: 40px;
+	color: #22313F;
+}
+
+#text p {
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #22313F;
 }
 
 li a:link {
@@ -98,7 +114,8 @@ footer {
 	width: 100%;
 	bottom: 0;
 	left: 0;
-	padding: 30px;
+	padding: 10px;
 	text-align: center;
 	background-color: white;
+	font-size: 12px;
 }

@@ -27,19 +27,19 @@ function draw() {
   console.log('draw function');
   background(34, 49, 63);
 
-  // CIRCLE [0][0] - AMPLITUDE
+  // Circle 1 - AMPLITUDE
   // Make circle move based on amplitude
   // amplitude level is between 0.0 and 1.0
   // when breathe out: amplitude approaches 1.0
   // when breathe in: amplitude approaches 00
   var amp = mic.getLevel();
-  fill(190, 144, 212);
+  fill(142, 68, 173);
   stroke(255);
   var h = map(amp, 0, 1, 20, 200);
   ellipse(150, 150, h, h)
 
 
-  // CIRCLE [1][0] - AMPLITUDE
+  // Circle 2 - AMPLITUDE
   // Change color based on amplitude
   // Circle inside changes radius based
   // on amplitude
@@ -57,13 +57,24 @@ function draw() {
   stroke(255);
   ellipse(150, 300, h, h)
 
-  // 2 - AMPLITUDE
-  var w = map(amp, 0, 0.5, 0, 100)
+  // Rectangle 1 - AMPLITUDE
+  var w1 = map(amp, 0, 0.5, 0, 150)
   fill(54, 215, 183);
   stroke(54, 215, 183);
-  rect(300, 130, w, 30)
+  rect(450, 130, w1, 30)
   fill(54, 215, 183);
   stroke(54, 215, 183);
-  rect(300, 130, -w, 30)
+  rect(450, 130, -w1, 30)
+
+  // Rectangle 2 - AMPLITUDE
+  fill(54, 215, 183);
+  stroke(54, 215, 183);
+  rect(450, 130, w1, 30)
+  fill(54, 215, 183);
+  stroke(54, 215, 183);
+  rect(450, 130, -w1, 30)
+
+  // Counter - AMPLITUDE 
+
 
 } // draw()
