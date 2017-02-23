@@ -26,6 +26,7 @@ function setup(){
 function draw() {
   console.log('draw function');
   background(34, 49, 63);
+
   // AMPLITUDE
   // Make circle move based on amplitude
   // amplitude level is between 0.0 and 1.0
@@ -34,18 +35,26 @@ function draw() {
   var amp = mic.getLevel();
   fill(220, 198, 224);
   stroke(255);
-  //var h = map(amp, 0, 1, height, 0);
-  //ellipse(width/2, h - 25, 50, 50);
   var h = map(amp, 0, 1, 20, 200);
   ellipse(150, 150, h, h)
 
 
-
-var r = map(amp, 0, 0.5, 174, 107)
-var g = map(amp, 0, 0.5, 168, 185)
-var b = map(amp, 0, 0.5, 211, 240)
-  fill(r, b, g);
+  // AMPLITUDE
+  // Change color based on amplitude
+  // Circle inside changes radius based
+  // on amplitude 
+  var r1 = map(amp, 0, 0.5, 174, 107)
+  var g1 = map(amp, 0, 0.5, 168, 185)
+  var b1 = map(amp, 0, 0.5, 211, 240)
+  fill(r1, b1, g1);
   stroke(255);
-  ellipse(150, 300, 100, 100)
+  ellipse(150, 300, 80, 80)
+
+  var r2 = map(amp, 0, 0.5, 174, 107)
+  var g2 = map(amp, 0, 0.5, 168, 185)
+  var b2 = map(amp, 0, 0.5, 211, 240)
+  fill(r2, b2, g2);
+  stroke(255);
+  ellipse(150, 300, h, h)
 
 } // draw()

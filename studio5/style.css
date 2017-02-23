@@ -58,10 +58,18 @@ body {
 main {
 	width: 900px;
 	margin: 0 auto;
+	margin-top: 30px;
 }
 main section {
 	width: 900px;
 	height: 400px;
+}
+
+article h1 {
+}
+
+article p {
+
 }
 
 li a:link {
@@ -92,4 +100,5 @@ footer {
 	left: 0;
 	padding: 30px;
 	text-align: center;
+	background-color: #E4F1FE;
 }
