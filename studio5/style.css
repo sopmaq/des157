@@ -52,14 +52,44 @@ table {
 }
 
 /* add your custom css here */
-
+body {
+	font-family: 'Courier', serif;
+}
 main {
-	width: 780px;
+	width: 900px;
 	margin: 0 auto;
 }
 main section {
-	width: 200px;
-	height: 200px;
-	margin: 30px;
-	float: right;
+	width: 900px;
+	height: 400px;
+}
+
+li a:link {
+	text-decoration: none;
+	color: #3A539B;
+}
+
+li a:visited {
+	color: #3A539B;
+}
+
+li a:hover {
+	color: #2ABB9B;
+}
+
+li a:active{
+	color: #2ABB9B;
+}
+ul li {
+	display: inline;
+	padding: 0 10 10 0;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+	text-align: center;
 }
