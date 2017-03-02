@@ -156,6 +156,9 @@ div{
     margin: 0 auto;
 }
 
+section {
+  margin-bottom: 200px;
+}
 #col-exercises {
     float: left;
     width: 266px;
@@ -180,12 +183,13 @@ div{
  */
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #ECF0F1;
     padding-left: 30px;
+    clear: both;
 }
 
 
