@@ -1,21 +1,22 @@
 body {
     width: 700px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
 h1,
-h3{ 
+h2,
+h3{
     font-family: 'Oswald', sans-serif;
     color: #03C9A9;
 }
 
 p {
-    font-family: 'Roboto Condensed', sans-serif; 
-    color: #444; 
-} 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444;
+}
 
-a:link {  
+a:link {
     text-decoration: none;
     color: silver;
 }
@@ -24,7 +25,7 @@ a:visited {
     color: silver;
 }
 
-a:hover { 
+a:hover {
     color: gainsboro;
 }
 
