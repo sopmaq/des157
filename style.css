@@ -1,7 +1,7 @@
-/* 
- * 
- * Body 
- * 
+/*
+ *
+ * Body
+ *
  */
 
 body {
@@ -10,10 +10,10 @@ body {
 
 }
 
-/* 
- * 
- * Typography 
- * 
+/*
+ *
+ * Typography
+ *
  */
 
 h1 {
@@ -65,7 +65,7 @@ ul {
 }
 
 ol {
-  padding-left: 12px;  
+  padding-left: 12px;
 }
 section p a:link {
     text-decoration: none;
@@ -110,10 +110,10 @@ footer p a:active {
 }
 
 
-/* 
- * 
+/*
+ *
  * Intro
- * 
+ *
  */
 
 #top-name {
@@ -124,7 +124,7 @@ footer p a:active {
 
 #highlight {
     background-color: #F62459;
-    position: relative; 
+    position: relative;
     right: 140px;
     bottom: 24px;
     width: 150px;
@@ -132,10 +132,10 @@ footer p a:active {
     z-index: -1;
 }
 
-/* 
- * 
- * Interactive Header 
- * 
+/*
+ *
+ * Interactive Header
+ *
  */
 
 header {
@@ -144,10 +144,10 @@ header {
     margin: 0 auto;
 }
 
-/* 
- * 
- * 3 Columns 
- * 
+/*
+ *
+ * 3 Columns
+ *
  */
 
 section,
@@ -173,25 +173,19 @@ div{
 }
 
 
-/* 
- * 
- * Footer 
- * 
+/*
+ *
+ * Footer
+ *
  */
 
 footer {
-    position: relative;
-    left: 0; 
-    bottom: 0; 
-    right: 0;
-    height: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #ECF0F1;
-    margin-top: 300px;
     padding-left: 30px;
-}
-
-footer ul {
-    padding-top: 10px;
 }
 
 
@@ -199,4 +193,8 @@ footer ul li {
     display: inline-block;
     list-style-type: none;
     padding-right: 30px;
+}
+
+footer ul li p {
+  font-size: 12px;
 }
