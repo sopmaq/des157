@@ -5,10 +5,10 @@
  */
 
 body {
-    width: 100%;
-    margin: 0 auto;
-
+  width: 100%;
+  margin: 0 auto;
 }
+
 
 /*
  *
@@ -17,96 +17,91 @@ body {
  */
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 60px;
-    color: #444;
-   }
-
-h2 {
-    font-family: 'Oswald', sans-serif;
-    border-bottom: 1px dotted silver;
-    padding-bottom: 5px;
-    width: 180px;
-    color: #444;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color: #444;
 }
 
+h2 {
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 1px dotted silver;
+  padding-bottom: 5px;
+  width: 180px;
+  color: #444;
+}
 
 .p-date {
-    color: gainsboro;
+  color: gainsboro;
 }
 
 #subhead {
-    color: #F62459;
+  color: #F62459;
 }
 
 #subhead ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #subhead li {
-    display: inline-block;
-    padding-right: 20px;
-}
-p,
-ol,
-ul {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 14px;
-    color: #444;
-
+  display: inline-block;
+  padding-right: 20px;
 }
 
-
-
+p, ol, ul {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  color: #444;
+}
 
 ul {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 ol {
   padding-left: 12px;
 }
+
 section p a:link {
-    text-decoration: none;
-    color: #444;
-    -webkit-transition: color 0.3s ease;
-    -moz-transition: color 0.3s ease;
-    -ms-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #444;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 section p a:visited {
-    color: #444;
+  color: #444;
 }
 
 section p a:hover {
-    text-decoration: none;
-    color: #F62459;
+  text-decoration: none;
+  color: #F62459;
 }
 
 section p a:active {
-    color: #F62459;
+  color: #F62459;
 }
 
 footer p a:link {
-    text-decoration: none;
-    color: #444;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease;
 }
 
 footer p a:visited {
-    color: #444;
+  color: #444;
 }
 
 footer p a:hover {
-    text-decoration: none;
-    color: gainsboro;
+  text-decoration: none;
+  color: gainsboro;
 }
 
 footer p a:active {
-    color: #444;
+  color: #444;
 }
 
 
@@ -117,20 +112,21 @@ footer p a:active {
  */
 
 #top-name {
-    width: 800px;
-    margin: 0 auto;
-    padding-top: 60px;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 60px;
 }
 
 #highlight {
-    background-color: #F62459;
-    position: relative;
-    right: 140px;
-    bottom: 24px;
-    width: 150px;
-    height: 15px;
-    z-index: -1;
+  background-color: #F62459;
+  position: relative;
+  right: 140px;
+  bottom: 24px;
+  width: 150px;
+  height: 15px;
+  z-index: -1;
 }
+
 
 /*
  *
@@ -139,10 +135,11 @@ footer p a:active {
  */
 
 header {
-    width: 800px;
-    height: 200px;
-    margin: 0 auto;
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
 }
+
 
 /*
  *
@@ -150,29 +147,28 @@ header {
  *
  */
 
-section,
-div{
-    width: 800px;
-    margin: 0 auto;
+section, div {
+  width: 800px;
+  margin: 0 auto;
 }
 
 section {
   margin-bottom: 200px;
 }
+
 #col-exercises {
-    float: left;
-    width: 266px;
+  float: left;
+  width: 266px;
 }
 
 #col-studios {
-    float: left;
-    width: 266px;
-
+  float: left;
+  width: 266px;
 }
 
 #col-project {
-    float: right;
-    width: 266px;
+  float: right;
+  width: 266px;
 }
 
 
@@ -183,20 +179,19 @@ section {
  */
 
 footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #ECF0F1;
-    padding-left: 30px;
-    clear: both;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #ECF0F1;
+  padding-left: 30px;
+  clear: both;
 }
 
-
 footer ul li {
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 30px;
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 30px;
 }
 
 footer ul li p {
