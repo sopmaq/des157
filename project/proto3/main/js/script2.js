@@ -33,6 +33,32 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
 
+    var exerciseLink = document.getElementById("exerciseLink");
+    var exerciseOn = false;
+    var time1 = 4;
+    var time2 = 7;
+    var time3 = 8;
+
+    exerciseLink.addEventListener("mouseover", function() {
+      exerciseLink.style.cursor = "pointer";
+    });
+
+    exerciseLink.addEventListener("click", function() {
+
+      if (exerciseOn == false) {
+        // exercise goes here
+        exerciseLink.innerHTML = "Breathe in for " + time1 + " seconds."
+        exerciseLink.innerHTML = "Hold for " + time2 + " seconds."
+        exerciseLink.innerHTML = "Breathe out for " + time3 + " seconds."
+        exerciseOn = true;
+      } else {
+        // exercise is complete
+        exerciseLink.innerHTML = "Begin exercise &#9656;"
+        exerciseOn = false;
+        return;
+      }
+    });
+
 });
 
 var mic;
