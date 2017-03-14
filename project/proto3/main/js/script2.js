@@ -3,6 +3,36 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
+    alert("Hold the microphone on the headphones underneath your nose. \n \n SEE EXAMPLE: https://sopmaq.github.io/des157/project/example.JPG" )
+
+    var tooltip = document.getElementById("tooltip");
+    var tooltiptext = document.getElementById("tooltiptext");
+    var carrot = document.getElementById("carrot");
+    var ifClick = false;
+
+    tooltip.addEventListener("mouseover", function() {
+      tooltip.style.cursor = "pointer";
+    });
+
+    tooltip.addEventListener("mouseout", function() {
+    });
+
+
+    tooltip.addEventListener("click", function()  {
+      if (ifClick == false) {
+        tooltiptext.style.display = "block";
+        tooltip.style.transition = "all 0.7s";
+        carrot.innerHTML = "&#9652;"
+        ifClick = true;
+        console.log("show tooltiptext");
+      } else {
+        tooltiptext.style.display = "none";
+        tooltip.style.transition = "all 0.7s";
+        carrot.innerHTML = "&#x25BE;"
+        ifClick = false;
+      }
+    });
+
 });
 
 var mic;

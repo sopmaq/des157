@@ -127,6 +127,25 @@ footer div {
   color: #DCC6E0;
 }
 
-.tooltiptext {
+footer a:link {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+footer a:visited {
+  color: ghostwhite;
+}
+
+footer a:hover {
+  color: #DCC6E0;
+}
+
+footer a:active {
+  color: #DCC6E0;
+}
+
+#tooltiptext {
   display: none;
+  padding-top: 10px;
+
 }
