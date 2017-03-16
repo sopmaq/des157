@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // make the popUp open when you press howTo
     howTo.onclick = function() {
       instructions.style.display = "block";
-      //breathingActivity.style.display = "none";
+      breathingActivity.style.display = "none";
     }
 
     // give close a pointer cursor
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
     close.onclick = function() {
       instructions.style.display = "none";
       instructions.style.transition = "all 1s";
-    //  breathingActivity.style.display = "block";
+      breathingActivity.style.display = "block";
     }
 
     //
@@ -88,6 +88,11 @@ document.addEventListener("DOMContentLoaded", function() {
         ifClick = false;
       }
     });
+
+
+
+
+
 });
 var mic;
 //var circles = [];
@@ -113,8 +118,6 @@ function setup(){
   var width = document.getElementById("indexCanvas").offsetWidth;
   var height = document.getElementById("indexCanvas").offsetHeight;
 
-
-
   for (var i = 0; i < 200; i ++) {
     randomw[i] = random(0, width);
   }
@@ -135,6 +138,10 @@ function draw() {
   // get amplitude
   var amp = mic.getLevel();
   var h = map(amp, 0, 1, 20, 200);
+
+  if (h <= 20) {
+    h--;
+  }
 
 //var shiftX = map(mouseX, 0, width, 5, 10);
 
@@ -280,11 +287,61 @@ ellipse(randomw[c++] + shiftX1, randomh[c++] + shiftY1, h + 150, h + 150);
 ellipse(randomw[c++] - shiftX1, randomh[c++] - shiftY1, h + 100, h + 100);
 ellipse(randomw[c++] + shiftX1, randomh[c] + shiftY1, h + 110, h + 110);
 
-ellipse(randomw[c++] - shiftX1, randomh[c++] + shiftY1, h + 60, h + 60);
+fill(63, 191, 191, 0.7);
+ellipse(randomw[c++] - shiftX1 , randomh[c++] + shiftY1, h + 60, h + 60);
+fill(63, 191, 191, 0.7);
 ellipse(randomw[c++] - shiftX1, randomh[c++] + shiftY1, h + 70, h + 70);
+fill(63, 191, 191, 0.7);
 ellipse(randomw[c++] + shiftX1, randomh[c++] - shiftY1, h + 80, h + 80);
 
 
+//
+// Timer
+//
+var breathingActivityText = document.getElementById("breathingActivityText")
+var boolBreathe = true;
+var boolHold = false;
+var boolOut = false;
+
+if (boolHold) {
+setTimeout(out, 7000);
+boolOut = true;
+boolHold = false;
+boolBreathe = false;
+}
+
+if (boolOut) {
+ setTimeout(breathe, 8000);
+ boolOut = false;
+ boolHold = false;
+ boolBreathe = trues;
+}
+
+if (boolBreathe) {
+ setTimeout(hold, 4000);
+ boolOut = false;
+ boolHold = true;
+ boolBreathe = false;
+}
+
+var time1 = 4;
+var time2 = 7;
+var time3 = 8;
+
+function breathe() {
+  time1--;
+  breathingActivityText.innerHTML = "Breathe in for " + time1 + " seconds...";
+}
+
+function hold() {
+  time2--;
+  breathingActivityText.innerHTML = "Hold for " + time2 + " seconds...";
+}
+
+function out() {
+  time3--;
+  breathingActivityText.innerHTML = "Breathe out for " + time1 + " seconds...";
+}
 
 
 
