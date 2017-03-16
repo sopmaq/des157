@@ -23,17 +23,27 @@
 
   <header>
     <h1>Breathing Visualizer</h1>
-    <p>A place to soothe your mind.</p>
+    <p>A place to decompress and slow things down.</p>
   </header>
 
   <main id="indexCanvas">
-    <section id="breathing activity">
-    </section>
+    <!--<section id="breathing-activity">
+      <button>Begin breathing activity</button>
+    </section>-->
     <section id="instructions">
+      <div id="floating-boxes">
+        <div id="box1">
+          <p>1. Make sure your microphone is turned on.</p>
+          <img src="images/allow.gif" alt="drawing of browser popup that asks for microphone to be allowed. user clicks allow button.">
+        </div>
+        <div id="box2">
+          <p>2. Place a microphone headset under your nose.</p>
+          <img src="images/nose.gif" alt="drawing of headset microphones placed under the nose.">
+        </div>
+      </div>
       <h1>Take a deep breath in.</h1>
-      <p>1. Make sure your microphone is turned on.</p>
-      <p>2. Place a pair of headset microphones under your nose.</p>
-      <button id="close">Ready?</button>
+
+      <button class="actionButton" id="close">Ready?</button>
     </section>
     <!--<section id="indexCanvas"></section>-->
   </main>
@@ -43,8 +53,9 @@
       <div id="tooltip">Need more help? <span id="carrot">&#x25BE</span></div>
       <div id="tooltiptext">
         <ul>
-          <li><a href="#">UCD Student Health and Counseling Services</a></li>
-          <li><a href="#">Tips for Managing Anxiety</a></li>
+          <li><a href="https://shcs.ucdavis.edu/counseling-services" target="_blank">UCD Student Health and Counseling Services</a></li>
+          <li><a href="https://shcs.ucdavis.edu/topics/anxiety" target="_blank">Learn about Anxiety</a></li
+          <li><a href="https://www.adaa.org/tips-manage-anxiety-and-stress" target="_blank">Tips for Managing Anxiety</a></li>
         </ul>
       </div>
   </footer>

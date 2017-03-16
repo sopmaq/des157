@@ -45,7 +45,6 @@ table {
 /* Custom CSS */
 
 body {
-  /*background-color: #2C3E50;*/
   background-color: #1D1E2C;
 }
 
@@ -62,7 +61,7 @@ header {
 header h1 {
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   color: #1BA39C;
   font-size: 64px;
 }
@@ -71,6 +70,11 @@ header p {
   font-family: 'VT323', sans-serif;
   text-align: center;
   color: #22313F;
+}
+
+#breathing-activity {
+  width: 100%;
+  display: none;
 }
 /* main */
 
@@ -81,22 +85,11 @@ body {
 }
 
 main {
-  /* positioning */
-  /*width: 100%;
-  height: 75%;
-  position: relative;*/
+
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-
-/* section (canvas) */
-/*main section {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: 0 auto;
-}*/
 
 main section h1 {
   display: none;
@@ -151,22 +144,8 @@ footer a:active {
 
 /* Instructions PopUp */
 
-/*#instructions {
-  background-color: #DCC6E0;
-  width: 50%;
-  height: 250px;
-  position: fixed;
-  top: 25%;
-  left: 25%;
-  margin-left: -15px;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 15px;
-  z-index: 10;
-}*/
-
 #instructions {
-  background-color: #DCC6E0;
+  background-color: #1D1E2C;
   width: 100%;
   height: 100%;
 }
@@ -178,18 +157,52 @@ footer a:active {
 
 #instructions p {
   font-family: 'VT323', monospace;
+  padding: 15px;
+  text-align: center;
+  color: ghostwhite;
+  letter-spacing: 1px;
 }
 
-#close {
-  background-color: #DCC6E0;
+#floating-boxes img {
+  width: 70%;
+  max-width: 350px;
+  position: relative;
   display: block;
-  color: blue;
+  margin: 0 auto;
+}
+
+#floating-boxes {
+  /*height: 438px;*/
+  height: 70%;
+  border-bottom: 1px dotted white;
+}
+
+#box1 {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #22313F;
+}
+
+#box2 {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #1BA39C;
+}
+
+#close,
+.actionButton {
+  background-color: #1D1E2C;
+  display: block;
+  color: #1BA39C;
   width: 100px;
   margin: 0 auto;
   position: relative;
-  border: 2px solid blue;
+  top: 20px;
+  border: 2px solid #1BA39C;
   font-family: 'Droid Serif', serif;
   font-size: 20px;
   padding: 10px;
-
+  clear: both;
 }
