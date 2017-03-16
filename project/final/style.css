@@ -49,59 +49,54 @@ body {
   background-color: #1D1E2C;
 }
 
-/* aside */
-
-/*aside {
-
-  width: 25%;
-  height: 100%;
-  position: fixed;
-  float: left;
-  left: 0;
-}
-
-aside article {
+/* Header */
+header {
+  font-family: 'Droid Serif', sans-serif;
   width: 100%;
+  height: 200px;
+  color: white;
   position: relative;
-  padding-left: 30px;
-  padding-top: 20%;
+  border-bottom: 1px dotted white;
 }
 
-aside h3,
-aside li {
-  font-family: 'VT323', monospace;
-  text-align: left;
-  color: ghostwhite;
+header h1 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10px;
+  color: #1BA39C;
+  font-size: 64px;
 }
 
-aside h3 {
-  font-size: 48px;
-  margin-bottom: 15px;
-  color: #336E7B;
+header p {
+  font-family: 'VT323', sans-serif;
+  text-align: center;
+  color: #22313F;
 }
-
-aside li {
-  font-size: 16px;
-  letter-spacing: 1px;
-  color: #DCC6E0;
-}
-
-*/
 /* main */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
 main {
   /* positioning */
+  /*width: 100%;
+  height: 75%;
+  position: relative;*/
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 /* section (canvas) */
-main section {
+/*main section {
   width: 100%;
   height: 100%;
   position: relative;
   margin: 0 auto;
-}
+}*/
 
 main section h1 {
   display: none;
@@ -143,8 +138,58 @@ footer a:active {
   color: #DCC6E0;
 }
 
+#howTo {
+  text-align: left;
+  float: left;
+}
+
 #tooltiptext {
   display: none;
   padding-top: 10px;
+
+}
+
+/* Instructions PopUp */
+
+/*#instructions {
+  background-color: #DCC6E0;
+  width: 50%;
+  height: 250px;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  margin-left: -15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 10;
+}*/
+
+#instructions {
+  background-color: #DCC6E0;
+  width: 100%;
+  height: 100%;
+}
+
+#instructions h1 {
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+}
+
+#instructions p {
+  font-family: 'VT323', monospace;
+}
+
+#close {
+  background-color: #DCC6E0;
+  display: block;
+  color: blue;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid blue;
+  font-family: 'Droid Serif', serif;
+  font-size: 20px;
+  padding: 10px;
 
 }

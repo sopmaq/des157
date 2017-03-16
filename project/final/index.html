@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Prototype # 3</title>
+    <title>Breathing Visualizer</title>
 
     <!-- Link to Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Lato" rel="stylesheet">
     <!-- Link to my style.css -->
     <link href="style.css" rel="stylesheet" />
 
@@ -19,23 +20,26 @@
 </head>
 
 <body>
-<!--
-  <aside>
-    <article>
-    <h3>Breathing<br />Visualizer</h3>
-    <ul>
-      <li id="exerciseLink">Begin exercise &#9656;</li>
-    </ul>
-  </article>
-  </aside>
--->
-  <main>
-    <section id="indexCanvas">
-      <h1>The canvas goes here.</h1>
+
+  <header>
+    <h1>Breathing Visualizer</h1>
+    <p>A place to soothe your mind.</p>
+  </header>
+
+  <main id="indexCanvas">
+    <section id="breathing activity">
     </section>
+    <section id="instructions">
+      <h1>Take a deep breath in.</h1>
+      <p>1. Make sure your microphone is turned on.</p>
+      <p>2. Place a pair of headset microphones under your nose.</p>
+      <button id="close">Ready?</button>
+    </section>
+    <!--<section id="indexCanvas"></section>-->
   </main>
 
   <footer>
+      <div id="howTo">How to use</div>
       <div id="tooltip">Need more help? <span id="carrot">&#x25BE</span></div>
       <div id="tooltiptext">
         <ul>
