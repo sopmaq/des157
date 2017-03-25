@@ -106,7 +106,8 @@ footer {
   text-align: right;
 }
 
-footer div {
+footer div,
+footer ul li a {
   padding-right: 30px;
   font-family: 'VT323', monospace;
   font-size: 14px;
@@ -133,6 +134,15 @@ footer a:active {
 
 #howTo {
   text-align: left;
+  float: left;
+}
+
+#validation {
+  float: left;
+}
+
+#validation li {
+  display: inline;
   float: left;
 }
 

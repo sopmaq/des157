@@ -90,6 +90,41 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 
+    var exerciseBtn = document.getElementById("exerciseBtn");
+
+var instruction = document.getElementById("instruction");
+
+var ifExercise = false;
+
+exerciseBtn.onclick = function() {
+  if (!ifExercise) {
+      instruction.style.display = "block";
+      exerciseBtn.innerHTML = "Stop";
+      var t = setInterval(dec, 1000);
+      ifExercise = true;
+  } else {
+    instruction.style.display = "none";
+    exerciseBtn.innerHTML = "Start";
+    ifExercise = false;
+  }
+}
+
+function startExercise() {
+ // var time = setInterval(inc(time), 1000);
+  var time = 1;
+  instruction.innerHTML = "Breathe in for " + time + " seconds";
+};
+
+
+function dec(i) {
+  instruction.innerHTML = "Breathe in for " + i + " seconds";
+  if (i == 0) {
+    return;
+  } else {
+      dec(i--);
+
+}
+}
 
 
 
